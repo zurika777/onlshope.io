@@ -1,0 +1,128 @@
+@import "../project";
+
+
+#block-breadcrumbs-and-rating {
+  margin-top: 10px;
+  border-bottom: 1px solid fade(@black, 10%);
+  width: 95%;
+}
+
+#nav-breadcrumbs {
+  margin-top: 10px;
+  a{
+    font-size: 1rem;
+    color: rgba(80, 102, 144, 0.8);
+  }
+  a:hover {
+    color: red;
+  }
+  span {
+    color: silver;
+  }
+}
+#content-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(80, 102, 144, 0.8);
+}
+
+#block-content-info {
+  margin-top: 20px;
+  display: flex;
+  img {
+    border: solid 1px #f5f5f5;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+}
+#block-mini-description {
+  margin-top: 10px;
+  width: 600px;
+
+}
+.stock_text {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  width: 140px;
+  text-align: center;
+  font-weight: 600;
+}
+.reviews-and-counts-content {
+  margin-top: 10px;
+
+  li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+
+
+  }
+  p {
+    margin-left: 25px;
+    margin-top: -2px;
+
+  }
+  img {
+  position: absolute;
+
+  }
+
+
+}
+#style-price {
+
+  font-size: 1.1rem;
+  margin-top: 50px;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+#add-cart-view {
+  height: 27px;
+  width: 27px;
+  display: block;
+  cursor: pointer;
+  background: url("../uploads_images/basket_white.svg") no-repeat left top;
+  margin-top: 0px;
+  margin-left: 0.75rem;
+  &:hover{
+    box-shadow: 2px 2px 10px fade(@black, 14%);
+    border-radius: 4px;
+  }
+}
+#contect-text {
+
+    font-size: 1rem;
+    color: silver;
+    font-weight: 500;
+}
+
+
+// patarasuratebis
+
+#block-img-slide {
+  width: auto;
+  height: 85px;
+  li {
+    padding: 3px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 3px 3px 10px fade(@black, 14%);
+      cursor: pointer;
+    }
+  }
+  a {
+    height: 73px;
+    display: block;
+  }
+}

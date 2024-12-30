@@ -1,0 +1,47 @@
+@import "../project";
+
+
+#block-random-tovar {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin: 10px -4px;
+  li {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    width: 279px;
+    padding: 10px;
+    border: 1px solid rgba(80, 102, 144, 0.1);
+    box-shadow : 0 2px 20px 0 rgba(0,0,0,.03);
+  }
+  img {
+    float: left;
+    margin-right: 8px;
+  }
+}
+
+.random-title {
+  font-size: 0.85rem;
+  color: rgba(80, 102, 144, 0.8);
+  font-weight: 600;
+  &:hover {
+    color: green;
+  }
+}
+.random-add-cart {
+  width: 19px;
+  height: 19px;
+  //margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: url("../uploads_images/basket_white.svg") no-repeat;
+  float: left;
+  &:hover{
+    box-shadow: 2px 2px 10px fade(@black, 14%);
+    border-radius: 4px;
+  }
+}

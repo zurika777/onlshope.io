@@ -1,0 +1,30 @@
+#block-feedback {
+  height: 350px;
+}
+#feedback {
+  margin-top: 30px;
+}
+#feedback li {
+  margin-top: 10px;
+}
+#feedback label {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 7px;
+  color: rgba(80, 102, 144, 0.8);
+}
+#feedback input,
+#feedback textarea {
+  height: 100%;
+  padding: 5px 5px;
+  width: 320px;
+  margin-left: 200px;
+  border-radius: 0.33rem;
+  border: 1px solid #ced4da;
+  outline-style: none;
+  font-size: 1rem;
+}
+#feedback #reg_captcha {
+  width: 100px;
+  margin-left: 15px;
+}

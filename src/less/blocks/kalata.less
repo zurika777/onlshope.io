@@ -1,0 +1,282 @@
+@import "../project";
+
+#block-step {
+  display: block;
+  height: 100px;
+  border-bottom: 1px solid fade(@black, 8%);
+  margin-top: 10px;
+  background: white;
+}
+
+#name-step {
+  display: flex;
+  height: 40px;
+  color: #E51A68;
+  a{
+    color: rgba(80, 102, 144, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 0px;
+    &.active {
+      color: #E51A68;
+    }
+  }
+  span {
+    margin: 0 10px;
+    margin-left: 0px;
+  }
+}
+#clear-step {
+  display: flex;
+  justify-content: space-between;
+  p{
+    color: #E51A68;
+    margin-top: 10px;
+  }
+  a{
+    width: 120px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    border-radius: 0.3rem;
+    background-color: #E51A68;
+    text-align: center ;
+    color: @white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+// colonebi
+#header-list-cart {
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid fade(@black, 8%);
+}
+#header1 {
+  text-align: center;
+  width: 80px;
+}
+#header2 {
+  width: 360px;
+  text-align: center;
+
+}
+#header3 {
+  text-align: center;
+  width: 100px;
+  margin-left: 5px;
+}
+#header4 {
+  width: 180px;
+  margin-right: 12px;
+}
+
+//
+.block-list-cart {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  img { // img chemi chasmulia satestoa mainc
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.img-cart {
+  margin-top: 10px;
+  width: 130px;
+ }
+.title-cart {
+  width: 400px;
+  p{
+    margin-top: 15px;
+
+  }
+  a{
+    font-size: 1rem;
+    color: rgba(80, 102, 144, 0.8);
+    font-weight: 600;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.cout-cart {
+  width: 55px;
+}
+.count-input {
+  width: 30px;
+}
+
+.price-product {
+  margin-top: 35px;
+  //height: 125px;
+  width: 140px;
+  text-align: center;
+  p {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 1rem;
+  }
+  h5 {
+
+  }
+}
+.delete-cart{
+  img {
+    margin-top: 38px;
+  }
+}
+
+.input-count-style {
+  margin-top: 25px;
+  input {
+    text-align: center;
+    border: 1px solid #eee;
+    width: 32px;
+    height: 22px;
+    border-radius: 0.33rem;
+    font-size: 1rem;
+    color: rgba(80, 102, 144, 0.8);
+  }
+  p {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1px;
+
+  }
+}
+
+#itog-cont{
+  margin: 0 auto;
+  display: block;
+}
+
+.itog-price {
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.button-next {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  a{
+    width: 120px;
+    margin-right: 25px;
+    padding: 10px 10px;
+    border-radius: 0.3rem;
+    background-color: #007bff;
+    text-align: center ;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+//kontact info
+
+#info-radio {
+  li {
+    font-size: 1rem;
+  }
+  input {
+    margin-top: 7px;
+    margin-right: 7px;
+  }
+  span {
+    margin-left: 200px;
+  }
+}
+#info-order {
+  margin-top: 25px;
+  li {
+    margin-top: 10px;
+  }
+  label {
+    position: absolute;
+    margin-top: 7px;
+    color: rgba(80, 102, 144, 0.8);
+  }
+  input {
+    height: 30px;
+    width: 305px;
+    margin-left: 170px;
+    font-size: 1rem;
+    padding-left: 5px;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+  }
+  textarea {
+    height: 110px;
+    width: 305px;
+    margin-left: 170px;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+  }
+  span {
+    font-size: 0.86rem;
+    margin-left: 15px;
+    font-style: italic;
+    margin-top: -1px;
+    position: absolute;
+    color: rgba(80, 102, 144, 0.8);
+
+  }
+}
+.order_label_style {
+  margin-top: 0px;
+}
+.order_span_style {
+  margin-top: 7px;
+}
+#confirm-button-next {
+  width: 120px;
+margin-right: 25px;
+}
+// boloetapis
+
+#list-info {
+  margin-top: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: rgba(80, 102, 144, 0.8);
+  li {
+    color: rgba(80, 102, 144, 0.8);
+  }
+  strong {
+    color: rgba(80, 102, 144, 0.8);
+  }
+}
+.title-h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: rgba(80, 102, 144, 0.8);
+}
+.label_delivery {
+  color: rgba(80, 102, 144, 0.8);
+}
+.label_payment {
+  color: rgba(80, 102, 144, 0.8);
+}
+.label_payment_pay {
+  color: #335eea;
+  font-weight: 600;
+}
+#block-basket span
+{
+  color: #335eea;
+  font-weight: 700;
+}

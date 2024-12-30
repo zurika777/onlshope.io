@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2,.cls-3{fill:none}.cls-3{stroke:#90aeff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Icon" transform="translate(-111 -2381.772)">
+        <path id="Rectangle_193" d="M0 0h48v48H0z" class="cls-1" data-name="Rectangle 193" transform="translate(111 2381.772)"/>
+        <g id="noun_Gift_1520125" transform="translate(60.793 2427.565)">
+            <g id="Group_143" data-name="Group 143" transform="translate(54.724 -41.276)">
+                <g id="Group_142" data-name="Group 142">
+                    <path id="Rectangle_138" d="M0 0h39.135v39.135H0z" class="cls-2" data-name="Rectangle 138"/>
+                    <path id="Path_184" d="M8.571 20.627a2.711 2.711 0 0 1-2.711-2.712v-2.3A3.238 3.238 0 0 1 9.1 12.38h21.431a3.238 3.238 0 0 1 3.238 3.238v2.3a2.711 2.711 0 0 1-2.746 2.711v8.488a3.454 3.454 0 0 1-3.454 3.454h-15.6a3.454 3.454 0 0 1-3.454-3.454z" class="cls-3" data-name="Path 184" transform="translate(-.23 -1.12)"/>
+                    <path id="Line_23" d="M0 0h4.119" class="cls-3" data-name="Line 23" transform="translate(17.175 19.507)"/>
+                    <path id="Path_185" d="M12.976 11.048a1.839 1.839 0 0 1-.734-2.185 5.924 5.924 0 0 1 1.33-2.107 5.509 5.509 0 0 1 1.2-.864 2.651 2.651 0 0 1 3.454.915l2.5 3.825" class="cls-3" data-name="Path 185" transform="translate(-1.085 -.193)"/>
+                    <path id="Path_186" d="M29.662 11.048a1.839 1.839 0 0 0 .738-2.185 5.924 5.924 0 0 0-1.33-2.107 5.509 5.509 0 0 0-1.2-.864 2.651 2.651 0 0 0-3.454.915l-2.521 3.8" class="cls-3" data-name="Path 186" transform="translate(-2.418 -.193)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

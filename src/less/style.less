@@ -1,0 +1,477 @@
+@import "smart-grid";
+@import "project";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/category";
+@import "blocks/works__nav";
+@import "blocks/footer";
+@import "blocks/pagination";
+@import "blocks/registration";
+@import "blocks/auth";
+@import "blocks/profile";
+@import "blocks/search";
+@import "blocks/kalata";
+@import "blocks/viewcont";
+@import "blocks/tabs";
+@import "blocks/like";
+@import "blocks/random";
+@import "blocks/feedback";
+@import "blocks/news";
+@import "blocks/service";
+@import "blocks/maincontainertest"; //droebiti satesto
+
+.reset();
+html {
+  font-size: 15px;
+  scroll-behavior: smooth; /*Прокрутка происходит плавно. Время и функция перехода устанавливаются непосредственно браузером.*/
+}
+
+
+p {
+  margin: 0 0 1rem;   //abzaci aqedn daayenda
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(80, 102, 144, 0.8);
+  font-size: 1rem;
+  // overflow-wrap: break-word;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+  *,
+  *:before,
+  *:after{
+  box-sizing: border-box;
+}   // ეს უნდა გავიგოთ იქნებ ჩვენ არ გვეხება როგორც მარგინ და პადინგი ნოლი
+
+/*todo Свойство word-wrap указывает, переносить или нет длинные слова, которые не помещаются по ширине в заданную область. Данное свойство носит черновой характер и при валидации документа на CSS3 выдает ошибку.
+     Синтаксис
+     overflow-wrap: normal | break-word | inherit
+     Значения
+     normal
+     Допускается переносить слова только в допустимых точках. Это значение по умолчанию.
+     break-word
+     Указывает, что слово может быть прервано в произвольный месте, если нет допустимой точки для разрыва.
+     inherit
+     Устанавливает свойство в значение по умолчанию.
+     initial
+     Указывает, что значение наследуется от родительского элемента.*/
+
+
+
+/* მთავარი body */
+#block__body {   /*<!--igive konteineria container-->*/
+  max-width: 1200px;
+  width: 100%;
+  //height: 100%;  //droebt gavtishe
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+/* block__header */
+#block__header {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+}
+/* logo */
+#img-logo {
+  margin-top: 0.66rem;
+  max-width: 100%;
+  height: auto;
+  //margin-left: 100px;
+  //width: 450px;
+  //padding: 200px 20px;
+}
+
+/* მთავარი წინა content */
+.block__content1 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* უკანა content */
+.block__content {
+  max-width: 940px;
+  width: 100%;
+  margin-top: 0.66rem;
+  height: auto;
+  border-radius: 2px;
+  background-color: white;
+}
+
+
+
+/* ნავიგაცია */
+.options-list {
+  display: flex;
+  font-size: 1rem;
+  color: rgba(80, 102, 144, 0.8)
+}
+
+.sort-vid {
+  margin-right: 10px;
+}
+
+.icon-grid {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sort-sort {
+  margin-right: 10px;
+}
+
+.select-sort {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgba(80, 102, 144, 0.8);
+  margin-left: 10px;
+  line-height: 1.9;
+}
+
+#sorting-list {
+  margin-top: 30px;
+  padding-top: 10px;
+  width: 200px;
+  background-color: #EAEFFD;
+  position: absolute;
+  display: none;
+  margin-left: 195px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 10px fade(@black, 14%);
+  cursor: pointer;
+}
+
+.nav-breadcrumbs {
+  margin-top: 10px;
+}
+
+.nav-breadcrumbs-link {
+  font-size: 1rem;
+  color: rgba(80, 102, 144, 0.8);
+}
+
+#style-grid {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#style-list {
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+/* grid */
+#block__tovar-grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px -4px;
+
+
+li  {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  width: 225px;
+  box-shadow : 0 2px 20px 0 rgba(0,0,0,.06);
+  }
+}
+
+#block__tovar-grid1{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px -4px;
+
+  li  {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    width: 225px;
+    box-shadow : 0 2px 20px 0 rgba(0,0,0,.06);
+    position: relative;
+  }
+}
+
+.aystopper{
+  display: inline-block;
+
+}
+
+.articles__left1{
+  display: none;
+}
+.articles__left {
+   color: white;
+   width: auto;
+   height: 23px;
+   background-color: #F680A4;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+  border-top-left-radius: 4px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+ }
+
+.articles__right1{
+  display: none;
+}
+.articles__right {
+
+  color: white;
+  width: auto;
+  height: 23px;
+  background-color: #90aeff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-top-left-radius: 4px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.add__cart-style-grid {
+  height: 19px;
+  width: 19px;
+  display: block;
+  background: url("../uploads_images/basket_white.svg") no-repeat left top;
+  margin-top: 0px;
+  margin-left: 6rem;
+  //margin-bottom: 20px;
+  &:hover{
+    box-shadow: 2px 2px 10px fade(@black, 14%);
+    border-radius: 4px;
+  }
+}
+
+#block__images-grid {
+  width: auto !important;
+  //height: 100%;
+  margin: auto;
+  //height: 100%;
+  //margin-right: 0.33rem;
+  margin-bottom: .66rem;
+
+}
+
+.imgklock{
+  border-radius: 4px;
+  background-color: white;
+  padding: 15px 15px;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  box-shadow : 0 2px 20px 0 rgba(0,0,0,.08);
+  display: flex;
+}
+
+.listp {
+
+  p {
+    margin-top: 28px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.listline{
+  background: #eee;
+  height: 1px;
+  width: 50%;
+  float: right;
+  margin-top: 35px;
+  margin-left: 130px;
+}
+
+#style__title-grid {
+  text-align: center;
+
+  a {
+    color: rgba(80, 102, 144, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      color: #335eea;
+    }
+  }
+}
+
+.style__price-grid {
+  text-align: center;
+  color: rgba(80, 102, 144, 0.8);
+  font-weight: 600;
+}
+
+.mini__features {
+  text-align: center;
+  color: #7b838e;
+  margin-top: .66rem;
+  font-size: 1rem;
+}
+
+.strong {
+  margin-left: 10px;
+}
+
+#reviews__and-count-grid {
+  display: flex;
+
+  li{
+    margin-left: 1.5rem;
+    margin-top: 0px;
+    box-shadow: none;
+
+    li, p {
+      margin-left: 1.66rem;
+      font-size: 1rem;
+      margin-top: -1.27rem;
+
+      img {
+        position: absolute;
+      }
+    }
+  }
+}
+
+
+/* block-list */
+.block-sorting {
+  width: 80%;
+}
+
+.block__images-list {
+  float: left;
+  //flex-direction: column;
+  width: 130px;
+  min-height: 160px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 20px;
+  img { // img chemi chasmulia satestoa mainc
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+}
+
+#block__tovar-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#block__tovar-list > li {
+  min-height: 160px;
+  height: auto;
+  border-bottom: 1px solid #eee ;
+  margin-top: 1.2rem;
+  padding-bottom: 5px;
+}
+
+.style__price-list-strong {
+  margin-left: 10px;
+}
+
+#reviews__and-counts-list  {
+  position: absolute;
+  margin-left: 770px;
+}
+
+#reviews__and-counts-list > li {
+  float: left;
+  //position: absolute;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+#reviews__and-counts-list > li > p {
+  //position: absolute;
+  margin-left: 25px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+#reviews__and-counts-list > li > img {
+  position: absolute;
+}
+
+#reviews__and-count-list {
+  display: flex;
+
+  li{
+    margin-left: 0.66rem;
+    margin-top: 0px;
+
+    li, p {
+      margin-left: 1.66rem;
+      font-size: 1rem;
+      margin-top: -1.55rem;
+
+      img {
+
+        position: absolute;
+      }
+    }
+  }
+}
+
+
+.add__cart-style-list {
+  height: 24px;
+  width: 24px;
+  display: block;
+  float: left;
+  background: url("../uploads_images/basket_white.svg") no-repeat left top;
+  margin-top: 20px;
+  margin-left: 0.13rem;
+  //margin-bottom: 20px;
+  &:hover{
+    box-shadow: 2px 2px 10px fade(@black, 14%);
+    border-radius: 4px;
+  }
+
+}
+.style__price-list {
+  margin-top: 24px;
+
+}
+
+#style__title-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  a{
+    color: rgba(80, 102, 144, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.counts-list {
+
+}

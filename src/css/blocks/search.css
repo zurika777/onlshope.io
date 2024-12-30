@@ -1,0 +1,42 @@
+#block-search {
+  width: 220px;
+  height: auto;
+  margin-bottom: 20px;
+}
+#input-search {
+  padding: 3px;
+  width: 220px;
+  border-radius: 0.33rem;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  outline-style: none;
+}
+#button-search {
+  margin-top: 8px;
+  margin-left: 200px;
+  position: absolute;
+  cursor: pointer;
+  outline-style: none;
+  border: none;
+  padding: 0px 15px;
+  background: url("../images/icon-search.png") no-repeat;
+}
+#result-search {
+  margin-top: 10px;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  width: 220px;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid white;
+}
+#result-search a {
+  text-decoration: none;
+  color: rgba(80, 102, 144, 0.8);
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+#result-search :hover {
+  color: red;
+}

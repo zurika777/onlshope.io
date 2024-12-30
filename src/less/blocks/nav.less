@@ -1,0 +1,51 @@
+@import "../project";
+//ზედა მენიუსი
+
+#nav-menu {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+}
+.nav-left-right{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.nav-left {
+  margin-left: 1px;
+  color: #506690;
+  position: relative;
+  margin-right: 1.5rem;
+  font-size: 0.93rem ;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color .2s linear;
+  &:after {
+    content: "";
+    //display: block;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 1;
+    transition: width .2s linear ;
+  }
+  &:hover {
+    color: #007bff;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+

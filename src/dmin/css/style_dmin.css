@@ -1,0 +1,43 @@
+#block-pass-login {
+    width: 285px;
+    height: auto;
+    border: 1px solid #E5E5E5;
+    background-color: #F2F2F2;
+    margin: 100px auto;
+}
+
+#pass-login li{
+    margin-top: 10px;
+}
+#pass-login label{
+    margin-top: 4px;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 10px;
+}
+#pass-login input{
+    width: 200px;
+    height: 24px;
+    margin-left: 75px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+
+}
+#submit_enter {
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+#msgerror {
+    font-size: 15px;
+    color: red;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFE8E8;
+    margin-top: 0;
+}
+.btn {
+    margin-left: 120px;
+}
+

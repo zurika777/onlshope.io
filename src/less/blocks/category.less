@@ -1,0 +1,141 @@
+@import "../project";
+
+//marjvena teda katalogis
+
+#block__right {
+  max-width: 100%;
+  width: 220px;
+  height: auto;
+  background: #fff;
+  float: right;
+  margin-top: 10px;
+    ul {
+      display: block;
+      justify-content: space-between;
+      text-align: left;
+      padding-bottom: 10px;
+  }
+  a{
+    text-decoration: none;
+    margin-left: 15px;
+    color:rgba(80, 102, 144, 0.8);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
+
+#block-category {
+  width: 220px;
+  height: auto;
+  a.active{
+    /*border: 1px solid #EAEFFD;*/
+  }
+}
+.header-right-title {
+  padding: 0.66rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background: @category;
+  color: #335eea;
+  border-radius: 5px 5px 0 0;
+  border-color: transparent!important;
+}
+
+.img-cat {
+  display: block;
+  margin-bottom: 10px;
+  position: absolute;
+  max-width: 100%;
+  margin-left: 0px;
+  margin-top: -2px;
+ /* &.chaild {
+    margin-left: -10px;
+  }*/
+}
+.category-section {
+  display: none;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+
+
+
+  li {
+    //display: none;
+    //margin-right: 30px;
+    padding: 2px;
+    text-align: left;
+    margin-left: 20px;
+    &:hover {
+      background-color: #EAEFFD;
+    }
+  }
+}
+.category-strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.category-mob {
+  color: rgba(80, 102, 144, 0.8);
+  padding: 10px;
+  margin-left: 15px;
+}
+.cat-top {
+  padding-bottom: 10px;
+}
+//param search
+#block-parameter {
+  border: 1px solid red;
+  width: 220px;
+  margin-top: 10px;
+  height: auto;
+}
+.title-filter {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgba(80, 102, 144, 0.8);
+  margin-top: 10px;
+}
+#block-input-price li {
+  float: left;
+  margin-left: 10px;
+  input {
+    width: 45px;
+    //padding: 5px 5px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.22rem ;
+    padding-left: 3px;
+  }
+  p {
+    font-size: 1rem;
+    float: left;
+    margin-top: 0px;
+    color: rgba(80, 102, 144, 0.8);
+  }
+}
+#blocktrackbar {
+  width: 220px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.checkbox-brand li {
+  font-size: 1rem;
+  margin-left: 5px;
+  margin-top: 3px;
+  input {
+    margin-right: 8px;
+  }
+}
+#button-param-search {
+  width: 81px;
+  height: 27px;
+  margin-top: 10px;
+  background: url("../images/button-search-active.png") no-repeat;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 70px;
+}

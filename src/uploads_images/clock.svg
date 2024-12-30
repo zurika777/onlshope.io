@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="clock" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1{fill:#fe5f55}
+        </style>
+    </defs>
+    <path id="Path_125" d="M7 0a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7zm0 12.526A5.526 5.526 0 1 1 12.526 7 5.533 5.533 0 0 1 7 12.526z" class="cls-1" data-name="Path 125"/>
+    <path id="Path_126" d="M162.365 71.449h-2.734a1.21 1.21 0 0 0-.4-.4v-3.284a.626.626 0 1 0-1.253 0v3.286a1.2 1.2 0 1 0 1.65 1.65h2.734a.626.626 0 0 0 0-1.253z" class="cls-1" data-name="Path 126" transform="translate(-151.608 -64.665)"/>
+</svg>

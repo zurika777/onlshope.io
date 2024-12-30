@@ -1,0 +1,29 @@
+#intro-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#intro-content {
+  width: 50%;
+}
+#intro-subtatle {
+  font-size: 1.8rem;
+  color: rgba(43, 42, 44, 0.4);
+  font-weight: 500;
+}
+#intro-title {
+  font-size: 2rem;
+  color: rgba(43, 42, 44, 0.5);
+  font-weight: 700;
+}
+#intro-text {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  color: rgba(43, 42, 44, 0.5);
+}
+#intro-photo {
+  width: 50%;
+}

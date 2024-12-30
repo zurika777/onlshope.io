@@ -1,0 +1,41 @@
+/*
+paginations*/
+.pstrnav {
+  padding: 10px 10px;
+  clear: left;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.pstrnav li {
+  padding: 0px 0px;
+  width: 26px;
+  margin-left: 7px;
+  float: left;
+  margin-top: 5px;
+}
+.pstrnav a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background-color: #EAEFFD;
+}
+.pstrnav a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.pstrnav a:active {
+  background-color: #007bff;
+  color: #fff;
+}
+.pstrnav a.pstr-active {
+  background-color: #007bff;
+  color: #fff;
+}
+.pstrnav p.pstr-point {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}

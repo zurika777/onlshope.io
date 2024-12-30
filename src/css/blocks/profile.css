@@ -1,0 +1,113 @@
+#conteineris {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+#block-user {
+  display: none;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 3px 3px 10px rgba(43, 42, 44, 0.14);
+          box-shadow: 3px 3px 10px rgba(43, 42, 44, 0.14);
+  width: 140px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 7;
+  background-color: #fff;
+}
+#block-user ul {
+  margin-top: 5px;
+}
+#block-user li {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+#block-user a {
+  color: rgba(80, 102, 144, 0.8);
+  font-size: 0.86rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#block-user a:hover {
+  text-decoration: underline;
+}
+#block-user img {
+  float: left;
+  margin-top: 2px;
+}
+.corner2 {
+  width: 19px;
+  height: 10px;
+  margin-top: -14px;
+  background: url("../images/bulleticon.png") no-repeat;
+}
+/*
+=================profilis redaqtireba=================*/
+.h3-title {
+  margin-top: 10px;
+  font-size: 1.66rem;
+  padding-bottom: 3px;
+  font-weight: 600;
+  color: rgba(80, 102, 144, 0.8);
+}
+#info-profile {
+  margin-top: 25px;
+}
+#info-profile li {
+  margin-top: 10px;
+}
+#info-profile label {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 7px;
+  color: rgba(80, 102, 144, 0.8);
+}
+#info-profile input {
+  height: 100%;
+  padding: 5px 5px;
+  width: 320px;
+  margin-left: 200px;
+  border-radius: 0.33rem;
+  border: 1px solid #ced4da;
+  outline-style: none;
+  font-size: 1rem;
+}
+#info-profile textarea {
+  height: 110px;
+  width: 320px;
+  font-size: 1rem;
+  margin-left: 200px;
+  border-radius: 0.33rem;
+  border: 1px solid #ced4da;
+  padding: 5px;
+}
+#form-error {
+  width: 80%;
+  padding: 10px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #E51A68;
+  background-color: #FFE8E8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+#form-success {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  background-color: #D7F8C9;
+  color: #2B2A2C;
+  padding-top: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,120 @@
+@import "../project";
+
+ul.tabs {list-style:none; width:100%; margin-top: 15px; border-bottom: 1px solid #ededed; height: 35px}
+ul.tabs li:first-child {border-left:1px solid #ededed; }
+ul.tabs li {float:left; border-right:1px solid #ededed; border-top:1px solid #ededed; background-color:#EAEFFD;}
+ul.tabs li.active {border-bottom:1px solid #fff; background-color:#fff; margin-bottom:-1px;}
+ul.tabs li a {display:block; padding:5px 10px; color:#777; letter-spacing:-1px; outline:none; text-decoration:none; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+ul.tabs li.active a {font-weight:600; color: #335eea;}
+div.tabs_content {width:100%; }
+div.tabs_content > div {padding:10px; display:none;} /* suggested to use display:none so that if the html is very long it wont jump badly */
+.tabs_content div{
+  margin-top: 15px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+#link-send-review {
+  a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: red;
+    border-bottom: 1px dashed #EF662B;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
+//gamoxmaureba
+.block-reviews {
+  border-bottom: 1px solid fade(@black, 9%);
+  margin-top: 20px;
+  img {
+  float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+}
+.author-date {
+  font-size: 1rem;
+  margin-left: 20px;
+  color: #8C8C8C;
+}
+.textrev {
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-right: 100px;
+  font-size: 1rem;
+}
+
+.text-comment {
+  font-size: 1rem;
+ // margin-left: 50px;
+}
+
+//otzivis
+#send-review {
+  display: none;
+  width: 400px;
+  height: 450px;
+    input{
+    height: 100%;
+    padding: 5px 5px;
+    width: 234px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 0.33rem;
+    outline-style: none;
+  }
+  textarea {
+    margin-top: 10px;
+    height: 100%;
+    padding: 5px 5px;
+    width: 230px;
+    margin-left: 110px;
+    border: 1px solid #ced4da;
+    border-radius: 0.33rem;
+    outline-style: none;
+  }
+}
+#title-review {
+  font-size: 1rem;
+  text-align: center;
+  color: #8C8C8C;
+}
+
+#label-name {
+
+}
+#label-good {
+  position: absolute;
+font-size: 1rem;
+  margin-top: 10px;
+}
+#label-bad {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 1rem;
+}
+#label-comment {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 1rem;
+}
+
+#reload-img {
+  display: none;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+#button-send-review {
+  cursor: pointer;
+  background: url("../images/button-send.png") no-repeat;
+  width: 81px;
+  height: 31px;
+  margin-top: 25px;
+  &:active {
+    background: url("../images/button-send-active.png") no-repeat;
+  }
+}
