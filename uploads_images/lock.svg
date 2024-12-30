@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.259 16.259">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#99a8b4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.6px}.cls-3{fill:#99a8b4}
+        </style>
+    </defs>
+    <g id="lock" transform="translate(-61 .912)">
+        <g id="Group_99" data-name="Group 99" transform="translate(64)">
+            <g id="noun_password_1485282" transform="translate(0 -1.912)">
+                <g id="Group_172" data-name="Group 172" transform="translate(-3 1)">
+                    <path id="Rectangle_156" d="M0 0h16.259v16.259H0z" class="cls-1" data-name="Rectangle 156"/>
+                    <g id="Group_171" data-name="Group 171" transform="translate(3.326 2.439)">
+                        <path id="Path_236" d="M17.129 23.129h-6.651A1.482 1.482 0 0 1 9 21.651v-5.173A1.482 1.482 0 0 1 10.478 15h6.651a1.482 1.482 0 0 1 1.478 1.478v5.173a1.482 1.482 0 0 1-1.478 1.478z" class="cls-2" data-name="Path 236" transform="translate(-9 -11.896)"/>
+                        <path id="Path_237" d="M19.651 9.7A3.334 3.334 0 0 0 13 9.7" class="cls-2" data-name="Path 237" transform="translate(-11.522 -6.6)"/>
+                        <path id="Path_238" d="M20.739 24.956a.741.741 0 0 1-.739-.739v-1.478a.741.741 0 0 1 .739-.739.741.741 0 0 1 .739.739v1.478a.741.741 0 0 1-.739.739z" class="cls-3" data-name="Path 238" transform="translate(-15.935 -16.31)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

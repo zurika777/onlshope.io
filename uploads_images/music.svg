@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.266 19.789">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: #093250;
+      }
+    </style>
+  </defs>
+  <g id="Icon" transform="translate(-103 -301)">
+    <path id="Path_5" data-name="Path 5" class="cls-1" d="M4.136-.026H20.618a1.648,1.648,0,0,1,1.648,1.648L19.778,18.114a1.648,1.648,0,0,1-1.648,1.648H1.648A1.648,1.648,0,0,1,0,18.114L2.488,1.622A1.648,1.648,0,0,1,4.136-.026Z" transform="translate(103 301.026)"/>
+    <g id="noun_Music_1980690" transform="translate(103.924 281.534)">
+      <g id="Group_620" data-name="Group 620" transform="translate(6.076 23.466)">
+        <path id="Path_1937" data-name="Path 1937" class="cls-2" d="M98.818,26.744l-4.926-3.235a.262.262,0,0,0-.406.221v8.3a2.046,2.046,0,1,0,.814,1.63,2,2,0,0,0-.284-1.04V27.737l4.536,2.479a.263.263,0,0,0,.261-.005.266.266,0,0,0,.129-.227V26.965A.272.272,0,0,0,98.818,26.744Z" transform="translate(-90.2 -23.466)"/>
+      </g>
+    </g>
+  </g>
+</svg>

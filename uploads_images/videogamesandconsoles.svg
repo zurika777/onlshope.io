@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.266 19.789">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: #0a3251;
+        stroke: #0a3251;
+        stroke-width: 0.3px;
+      }
+    </style>
+  </defs>
+  <g id="Icon" transform="translate(-103.087 -301)">
+    <path id="Path_5" data-name="Path 5" class="cls-1" d="M4.136-.026H20.618a1.648,1.648,0,0,1,1.648,1.648L19.778,18.114a1.648,1.648,0,0,1-1.648,1.648H1.648A1.648,1.648,0,0,1,0,18.114L2.488,1.622A1.648,1.648,0,0,1,4.136-.026Z" transform="translate(103.087 301.026)"/>
+    <g id="gamepad" transform="translate(101.185 289.465)">
+      <g id="Group_225" data-name="Group 225" transform="translate(6.4 15.3)">
+        <path id="Path_256" data-name="Path 256" class="cls-2" d="M14.831,17.249H13.294V15.757a.457.457,0,1,0-.913,0v1.492h-1.47a4.505,4.505,0,1,0-.011,9.01l3.92.011a4.511,4.511,0,0,0,.011-9.022Zm-.011,8.108-3.92-.011a3.6,3.6,0,1,1,.022-7.195l3.909.011a3.6,3.6,0,0,1-.011,7.195Z" transform="translate(-6.4 -15.3)"/>
+        <path id="Path_257" data-name="Path 257" class="cls-2" d="M26.717,61.48h-.523v-.523a.457.457,0,0,0-.913,0v.523h-.523a.457.457,0,1,0,0,.913h.523v.523a.457.457,0,0,0,.913,0v-.523h.523a.457.457,0,1,0,0-.913Z" transform="translate(-22.306 -55.466)"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-2" cx="0.735" cy="0.735" r="0.735" transform="translate(7.975 4.99)"/>
+        <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-2" cx="0.735" cy="0.735" r="0.735" transform="translate(9.445 6.46)"/>
+      </g>
+    </g>
+  </g>
+</svg>
